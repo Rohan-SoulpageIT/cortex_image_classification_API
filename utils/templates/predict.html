@@ -1,0 +1,22 @@
+<html>
+<title>Prediction Page</title>
+<body>
+<h2>Model Building Completed</h2>
+
+<h4>Model Accuracy: {{score}}</h4>
+
+<h5>Upload an image to predict using the model we built for you:</h5>
+
+<form method="post" action="/output" enctype="multipart/form-data">
+  <dl>
+		<p>
+			<input type="file" name="file" autocomplete="off" required>
+		</p>
+   </dl>
+    <p>
+    	<input type="submit" value="Predict">
+	</p>
+
+</form>
+
+</html>

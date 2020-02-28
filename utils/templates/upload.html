@@ -1,0 +1,26 @@
+<html>
+<title>Upload Files for Model Building</title>
+<body>
+<h2>Upload atleast 25 Files for Each Category:</h2>
+
+
+<form method="post" action="/" enctype="multipart/form-data">
+  <label for="cls">Category Name:</label><br>
+  <input type="text" id="cls" name="cls"><br>
+  <dl>
+		<p>
+			<input type="file" name="files[]" multiple="true" autocomplete="off" required>
+		</p>
+   </dl>
+   <p>
+		<input type="submit" value="Upload">
+	</p>
+
+</form>
+
+<br><br>
+
+<p>After uploading files, <a href="build">click here</a> to build model</p>
+
+</html>
+
