@@ -53,7 +53,7 @@ pandocfilters==1.4.2
 parso==0.6.1
 patsy==0.5.1
 pickleshare==0.7.5
-Pillow==6.2.2
+Pillow==8.1.1
 plantcv==3.7
 plotnine==0.5.1
 prometheus-client==0.7.1
